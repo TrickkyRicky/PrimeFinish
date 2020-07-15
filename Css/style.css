@@ -75,7 +75,7 @@ nav .nav-link:hover {
 /* This is the code for the homepage */
 
 #home {
-	background: #333 url("/images/BMW.png") no-repeat center center/cover;
+	background: #333 url("../images/BMW.png") no-repeat center center/cover;
 	background-position: fixed;
 	height: 100vh;
 }
@@ -226,7 +226,7 @@ nav .nav-link:hover {
 /* Pricing Section starts here */
 
 #prices {
-	background: #333 url("/images/garage3.jpg") no-repeat center center/cover;
+	background: #333 url("../images/garage3.jpg") no-repeat center center/cover;
 	height: auto;
 }
 
@@ -255,18 +255,18 @@ nav .nav-link:hover {
 #prices #grid-image-1 {
 	width: 100%;
 	height: 15rem;
-	background: url("/images/camero.png") no-repeat center center/cover;
+	background: url("../images/camero.png") no-repeat center center/cover;
 }
 
 #prices #grid-image-2 {
 	width: 100%;
 	height: 15rem;
-	background: url("/images/suvcar1.png") no-repeat center center/cover;
+	background: url("../images/suvcar1.png") no-repeat center center/cover;
 }
 #prices #grid-image-3 {
 	width: 100%;
 	height: 15rem;
-	background: url("/images/truck.png") no-repeat center center/cover;
+	background: url("../images/truck.png") no-repeat center center/cover;
 }
 
 #prices .image-overlay {
