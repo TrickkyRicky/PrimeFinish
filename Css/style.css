@@ -1,361 +1,362 @@
 /* Resets the webpage */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-	font-size: 62.5%;
-	font-family: "Helvetica", "Arial", sans-serif;
-	/* line-height: 1rem; */
-	letter-spacing: 2.1px;
+  font-size: 62.5%;
+  font-family: "Helvetica", "Arial", sans-serif;
+  /* line-height: 1rem; */
+  letter-spacing: 2.1px;
 }
 
 .active {
-	color: white !important;
+  color: white !important;
 }
 
 .container {
-	max-width: 1280px;
-	margin: auto;
-	display: block;
-	overflow: hidden;
+  max-width: 1280px;
+  margin: auto;
+  display: block;
+  overflow: hidden;
 }
 
 /* This is the code for the navigation */
 
 #nav-bar {
-	position: fixed;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
-	z-index: 2;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 3;
 }
 
 nav .container {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
 }
 
 nav #header {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 nav #heading {
-	font-size: 3.25rem;
-	background: linear-gradient(to right bottom, #211a23, #ffcc00, #ffffff);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+  font-size: 3.25rem;
+  background: linear-gradient(to right bottom, #211a23, #ffcc00, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 nav #header-img {
-	height: 6rem;
+  height: 6rem;
 }
 
 nav ul li {
-	list-style: none;
+  list-style: none;
 }
 
 nav .nav-link {
-	text-decoration: none;
-	font-size: 1.9rem;
-	color: #ffcc00;
-	padding: 3rem;
+  text-decoration: none;
+  font-size: 1.9rem;
+  color: #ffcc00;
+  padding: 3rem;
 }
 
 nav .nav-link:hover {
-	transition: all 0.75s;
-	color: #ffffff;
-	background-color: rgb(30, 30, 30);
+  transition: all 0.75s;
+  color: #ffffff;
+  background-color: rgb(30, 30, 30);
 }
 
 /* This is the code for the homepage */
 
 #home {
-	background: #333 url("../images/BMW.png") no-repeat center center/cover;
-	background-position: fixed;
-	height: 100vh;
+  background: #333 url("../images/BMW.png") no-repeat center center/cover;
+  background-position: fixed;
+  height: 100vh;
 }
 
 #home .tint-1 {
-	height: inherit;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.45);
+  height: inherit;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
 }
 
 #home #home-description {
-	height: inherit;
-	font-size: 3rem;
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-transform: uppercase;
-	font-style: italic;
-	animation-name: FadeIn;
-	animation-duration: 3s;
+  height: inherit;
+  font-size: 3rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-style: italic;
+  animation-name: FadeIn;
+  animation-duration: 3s;
 }
 
 @keyframes FadeIn {
-	0% {
-		opacity: 0;
-	}
+  0% {
+    opacity: 0;
+  }
 }
 
 /* The ABOUT section starts here */
 
 #about {
-	background-color: white;
-	height: auto;
+  background-color: white;
+  height: auto;
 }
 
 #about .tint-2 {
-	height: inherit;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.6);
-	padding: 2rem 0;
+  height: inherit;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem 0;
 }
 
 #about .container {
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #about-article {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-	position: relative;
-	height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  height: auto;
 }
 
 #about-info {
-	min-width: 50%;
+  min-width: 50%;
 }
 
 #about-heading {
-	text-align: center;
-	font-size: 4rem;
-	color: white;
-	position: relative;
-	margin-bottom: 4rem;
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+  position: relative;
+  margin-bottom: 4rem;
 }
 
 #about-heading:before {
-	content: "";
-	position: absolute;
-	height: 5px;
-	width: 10rem;
-	border-bottom: 3px solid white;
-	top: 1.5rem;
-	left: 80px;
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 10rem;
+  border-bottom: 3px solid white;
+  top: 1.5rem;
+  left: 80px;
 }
 
 #about-heading:after {
-	content: "";
-	position: absolute;
-	height: 5px;
-	width: 10rem;
-	border-bottom: 3px solid white;
-	top: 1.5rem;
-	right: 80px;
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 10rem;
+  border-bottom: 3px solid white;
+  top: 1.5rem;
+  right: 80px;
 }
 
 #about-description {
-	font-size: 2rem;
+  font-size: 1.8rem;
+  list-style: none;
 }
 
 #about .about-list-us {
-	color: white;
+  color: white;
 }
 
 #about .about-list-us:not(:last-child) {
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 #about-image {
-	position: relative;
-	min-width: 50%;
-	margin-left: 8rem;
+  position: relative;
+  min-width: 50%;
+  margin-left: 8rem;
 }
 
 #about .about-image-format {
-	display: block;
-	width: 32rem;
-	height: 22rem;
-	background-color: #ffffff;
+  display: block;
+  width: 32rem;
+  height: 22rem;
+  background-color: #ffffff;
 }
 
 #about .about-image-format:hover {
-	transition: all 0.2s;
-	outline: 1.5rem solid #ffcc00;
-	transform: scale(1.2) translateY(-0.5rem);
-	padding: 1.5rem;
-	z-index: 2;
+  transition: all 0.2s;
+  outline: 1.5rem solid #ffcc00;
+  transform: scale(1.2) translateY(-0.5rem);
+  padding: 1.5rem;
+  z-index: 2;
 }
 
 #about-image:hover .about-image-format:not(:hover) {
-	transition: all 0.5s;
-	transform: scale(0.85);
+  transition: all 0.5s;
+  transform: scale(0.85);
 }
 
 #about #car-1 {
-	position: absolute;
-	bottom: -5rem;
-	right: 50%;
+  position: absolute;
+  bottom: -5rem;
+  right: 50%;
 }
 
 #about #car-2 {
-	position: absolute;
-	bottom: -10rem;
-	right: 20%;
+  position: absolute;
+  bottom: -10rem;
+  right: 20%;
 }
 
 #about #car-3 {
-	position: absolute;
-	bottom: -19rem;
-	right: 40%;
+  position: absolute;
+  bottom: -19rem;
+  right: 40%;
 }
 
 /* Pricing Section starts here */
 
 #prices {
-	background: #333 url("../images/garage3.jpg") no-repeat center center/cover;
-	height: auto;
+  background: #333 url("../images/garage3.jpg") no-repeat center center/cover;
+  height: auto;
 }
 
 #prices .tint-3 {
-	width: 100%;
-	height: inherit;
-	background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #prices #price-grid-container {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-	justify-items: center;
-	align-content: center;
-	min-height: 100vh;
-	padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  justify-items: center;
+  align-content: center;
+  min-height: 100vh;
+  padding: 2rem 0;
 }
 
 #prices .grid-format {
-	height: 45rem;
-	background-color: rgba(243, 242, 242, 0.5);
-	text-align: center;
-	width: 30rem;
+  height: 45rem;
+  background-color: rgba(243, 242, 242, 0.5);
+  text-align: center;
+  width: 30rem;
 }
 
 #prices #grid-image-1 {
-	width: 100%;
-	height: 15rem;
-	background: url("../images/camero.png") no-repeat center center/cover;
+  width: 100%;
+  height: 15rem;
+  background: url("../images/camero.png") no-repeat center center/cover;
 }
 
 #prices #grid-image-2 {
-	width: 100%;
-	height: 15rem;
-	background: url("../images/suvcar1.png") no-repeat center center/cover;
+  width: 100%;
+  height: 15rem;
+  background: url("../images/suvcar1.png") no-repeat center center/cover;
 }
 #prices #grid-image-3 {
-	width: 100%;
-	height: 15rem;
-	background: url("../images/truck.png") no-repeat center center/cover;
+  width: 100%;
+  height: 15rem;
+  background: url("../images/truck.png") no-repeat center center/cover;
 }
 
 #prices .image-overlay {
-	width: 100%;
-	height: 15rem;
-	background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 15rem;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 #prices #grid-image-3 .image-overlay {
-	background-color: rgba(0, 0, 0, 0.54);
+  background-color: rgba(0, 0, 0, 0.54);
 }
 
 #prices .price-heading {
-	font-size: 2.5rem;
-	text-align: center;
-	padding: 1rem 0;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1rem 0;
 }
 
 #prices ul {
-	list-style: none;
-	font-size: 1.7rem;
-	font-weight: 600;
+  list-style: none;
+  font-size: 1.7rem;
+  font-weight: 600;
 }
 
 #prices ul li {
-	text-align: center;
-	padding: 1.5rem 0 1.5rem 0;
+  text-align: center;
+  padding: 1.5rem 0 1.5rem 0;
 }
 
 #prices .prime {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 #prices .btn {
-	display: inline-block;
-	border: none;
-	text-decoration: none;
-	padding: 0.8rem 2.2rem 0.8rem 2.5rem;
-	border-radius: 1rem;
-	background-color: #ffcc00;
-	font-size: 2.1rem;
-	color: #ffffff;
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  padding: 0.8rem 2.2rem 0.8rem 2.5rem;
+  border-radius: 1rem;
+  background-color: #ffcc00;
+  font-size: 2.1rem;
+  color: #ffffff;
 }
 
 #prices .btn:hover {
-	transition: all 0.3s;
-	transform: translateY(-4px);
-	background-color: #333;
+  transition: all 0.3s;
+  transform: translateY(-4px);
+  background-color: #333;
 }
 
 /* Code for the footer starts here */
 #footer {
-	height: auto;
-	background-color: #333;
-	padding: 1rem 0;
+  height: auto;
+  background-color: #333;
+  padding: 1rem 0;
 }
 
 #footer .container {
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 #footer .icon {
-	color: white;
+  color: white;
 }
 
 #footer #footer-logo {
-	height: 7rem;
+  height: 7rem;
 }
 
 #footer .icon-info {
-	color: #ffffff59;
-	text-align: center;
-	margin-top: 1.5rem;
-	font-size: 1.35rem;
+  color: #ffffff59;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1.35rem;
 }
 
 #footer .footer-spacing {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #footer .footer-spacing:hover > * {
-	transition: all 0.5s;
-	color: white;
+  transition: all 0.5s;
+  color: white;
 }
 
 #footer .footer-spacing:first-child {
-	margin-top: 1.2rem;
+  margin-top: 1.2rem;
 }

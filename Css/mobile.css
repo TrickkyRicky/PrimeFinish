@@ -1,204 +1,225 @@
+@media only screen and (max-width: 1400px) {
+  #about-info {
+    padding-left: 3.5rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #about-heading:before {
+    width: 10rem;
+    left: 40px;
+  }
+  #about-heading:after {
+    width: 10rem;
+    right: 40px;
+  }
+  #about-description {
+    font-size: 1.5rem;
+  }
+}
 
 @media only screen and (max-width: 1024px) {
-	.container {
-		max-width: 950px;
-	}
-	#home {
-		height: 65vh;
-	}
+  .container {
+    max-width: 950px;
+  }
+  #home {
+    height: 65vh;
+  }
 
-	#about .container {
-		min-height: 65vh;
-	}
+  #about .container {
+    min-height: 65vh;
+  }
 
-	#about .about-image-format:hover {
-		transition: all 0.2s;
-		outline: 1rem solid #ffcc00;
-		transform: scale(1) translateY(-0.5rem);
-	}
-	#about-heading:before {
-		width: 7rem;
-		left: 30px;
-	}
-	#about-heading:after {
-		width: 7rem;
-		right: 30px;
-	}
+  #about .about-image-format:hover {
+    transition: all 0.2s;
+    outline: 1rem solid #ffcc00;
+    transform: scale(1) translateY(-0.5rem);
+  }
+  #about-heading:before {
+    width: 7rem;
+    left: 30px;
+  }
+  #about-heading:after {
+    width: 7rem;
+    right: 30px;
+  }
 
-	#about #car-2 {
-		position: absolute;
-		bottom: -10rem;
-		right: 20%;
-	}
+  #about #car-2 {
+    position: absolute;
+    bottom: -10rem;
+    right: 20%;
+  }
 
-	#prices #price-grid-container {
-		min-height: 65vh;
-	}
+  #prices #price-grid-container {
+    min-height: 65vh;
+  }
 }
 
-@media only screen and (max-width: 820px) {
-	.container {
-		max-width: 750px;
-	}
+@media only screen and (max-width: 920px) {
+  .container {
+    max-width: 750px;
+  }
 
-	/* about page */
-	#about-article {
-		flex-direction: column;
-		text-align: center;
-	}
+  /* about page */
+  #about-article {
+    flex-direction: column;
+    text-align: center;
+  }
 
-	#about-heading:before {
-		display: none;
-	}
+  #about-heading:before {
+    display: none;
+  }
 
-	#about-heading:after {
-		display: none;
-	}
+  #about-heading:after {
+    display: none;
+  }
 
-	#about-description {
-		font-size: 1.6rem;
-	}
+  #about-description {
+    font-size: 1.4rem;
+  }
 
-	#about-image {
-		margin-left: 0;
-		display: flex;
-		flex-direction: column;
-		position: unset;
-	}
+  #about-image {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    position: unset;
+  }
 
-	#about .about-image-format {
-		display: block;
-		width: 30rem;
-		height: 20rem;
-		background-color: #ffffff;
-		margin: 1rem;
-	}
+  #about .about-image-format {
+    display: block;
+    width: 30rem;
+    height: 20rem;
+    background-color: #ffffff;
+    margin: 1rem;
+  }
 
-	#about .about-image-format:hover {
-		transition: all 0.2s;
-		outline: 1rem solid #ffcc00;
-		transform: scale(1) translateY(-0.5rem);
-	}
+  #about .about-image-format:hover {
+    transition: all 0.2s;
+    outline: 1rem solid #ffcc00;
+    transform: scale(1) translateY(-0.5rem);
+  }
 
-	#about #car-1 {
-		position: unset;
-		margin-top: 2.5rem;
-	}
-	#about #car-2 {
-		position: unset;
-	}
-	#about #car-3 {
-		position: unset;
-	}
+  #about #car-1 {
+    position: unset;
+    margin-top: 2.5rem;
+  }
+  #about #car-2 {
+    position: unset;
+  }
+  #about #car-3 {
+    position: unset;
+  }
 
-	/* Pricing */
-	#prices #price-grid-container {
-		grid-gap: 1.8rem;
-	}
+  /* Pricing */
+  #prices #price-grid-container {
+    grid-gap: 1.8rem;
+  }
 
-	#prices .grid-format {
-		width: 30rem;
-	}
+  #prices .grid-format {
+    width: 30rem;
+  }
 }
 
-@media only screen and (max-width: 420px) {
-	/* home page */
-	nav .container {
-		flex-direction: column;
-		align-items: center;
-		padding: 0.5rem 0;
-	}
+@media only screen and (max-width: 670px) {
+  /* home page */
+  nav .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
 
-	nav #header-img {
-		height: 4rem;
-	}
+  nav #header-img {
+    height: 4rem;
+  }
 
-	nav .nav-link {
-		padding: 1rem 2rem;
-	}
+  nav .nav-link {
+    padding: 1rem 2rem;
+  }
 
-	nav .nav-link:hover {
-		transition: all 0.75s;
-		color: #ffffff;
-		background-color: transparent;
-	}
+  nav .nav-link:hover {
+    transition: all 0.75s;
+    color: #ffffff;
+    background-color: transparent;
+  }
 
-	#home {
-		height: 60vh;
-	}
+  #home {
+    height: 60vh;
+  }
 
-	#home #home-description {
-		font-size: 1.25rem;
-	}
+  #home #home-description {
+    font-size: 1.25rem;
+  }
 
-	/* about page */
-	#about-article {
-		flex-direction: column;
-		text-align: center;
-	}
+  /* about page */
+  #about-article {
+    flex-direction: column;
+    text-align: center;
+  }
 
-	#about-heading:before {
-		display: none;
-	}
+  #about-heading:before {
+    display: none;
+  }
 
-	#about-heading:after {
-		display: none;
-	}
+  #about-heading:after {
+    display: none;
+  }
+  #about-info {
+    padding: 1rem;
+  }
 
-	#about-description {
-		font-size: 1.6rem;
-	}
+  #about-description {
+    font-size: 1.6rem;
+  }
 
-	#about-image {
-		margin-left: 0;
-		display: flex;
-		flex-direction: column;
-		position: unset;
-	}
+  #about-image {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    position: unset;
+  }
 
-	#about .about-image-format {
-		display: block;
-		width: 30rem;
-		height: 20rem;
-		background-color: #ffffff;
-		margin: 1rem;
-	}
+  #about .about-image-format {
+    display: block;
+    width: 30rem;
+    height: 20rem;
+    background-color: #ffffff;
+    margin: 1rem;
+  }
 
-	#about .about-image-format:hover {
-		transition: all 0.2s;
-		outline: 1rem solid #ffcc00;
-		transform: scale(1) translateY(-0.5rem);
-	}
+  #about .about-image-format:hover {
+    transition: all 0.2s;
+    outline: 1rem solid #ffcc00;
+    transform: scale(1) translateY(-0.5rem);
+  }
 
-	#about #car-1 {
-		position: unset;
-		margin-top: 2.5rem;
-	}
-	#about #car-2 {
-		position: unset;
-	}
-	#about #car-3 {
-		position: unset;
-	}
+  #about #car-1 {
+    position: unset;
+    margin-top: 2.5rem;
+  }
+  #about #car-2 {
+    position: unset;
+  }
+  #about #car-3 {
+    position: unset;
+  }
 
-	/* Pricing page */
-	#prices #price-grid-container {
-		grid-gap: 1.5rem;
-	}
+  /* Pricing page */
+  #prices #price-grid-container {
+    grid-gap: 1.5rem;
+  }
 
-	#prices .grid-format {
-		width: 25rem;
-	}
+  #prices .grid-format {
+    width: 25rem;
+  }
 
-	/* footer page */
+  /* footer page */
 
-	#footer .container {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 2rem;
-	}
+  #footer .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
 
-	#footer .footer-spacing:nth-child(3) {
-		display: none;
-	}
+  #footer .footer-spacing:nth-child(3) {
+    display: none;
+  }
 }
